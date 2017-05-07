@@ -13,7 +13,7 @@
   "author": "Stuart Flanagan <stuartflanagan@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "claudia-bot-builder": "^2.7.1",
+    "claudia-bot-builder": "^2.15",
     "dotenv": "^4.0.0",
     "watson-developer-cloud": "^2.31.1"
   }
