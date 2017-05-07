@@ -1,0 +1,20 @@
+{
+  "name": "orbweavers-oracle",
+  "version": "1.0.0",
+  "description": "A silly alexa skill that responds to questions & statements with Orbweavers lyrics",
+  "config": {
+    "region": "ap-southeast-2"
+  },
+  "scripts": {
+    "create": "claudia create --configure-alexa-skill --region $npm_package_config_region --api-module bot --cache-api-config apiConfig --set-env-from-json env.prod.json",
+    "update": "claudia update --cache-api-config apiConfig"
+  },
+  "keywords": [],
+  "author": "Stuart Flanagan <stuartflanagan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "claudia-bot-builder": "^2.7.1",
+    "dotenv": "^4.0.0",
+    "watson-developer-cloud": "^2.31.1"
+  }
+}
